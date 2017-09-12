@@ -1,9 +1,2 @@
-naam = input('Geef je naam: ')
-leeftijd = eval(input ('Geef je leeftijd: '))
-if leeftijd > 18:
-    print('Beste', naam, 'Je mag stemmen.')
-else:
-    Wachttijd = 18 - leeftijd
-    print('Je moet nog ' + (str(Wachttijd) + ' jaar wachten'))
-for char in naam:
-            print(naam)
+for i in range (0,9,2):
+    print(i)
